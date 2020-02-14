@@ -25,6 +25,7 @@ Clone this repository (git clone) and cd into the directory.
 ```
 virtualenv venv
 . venv/bin/activate
+pip install --editable .
 deactivate
 cp venv/bin/cred_switch /usr/local/bin/
 ```

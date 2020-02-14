@@ -8,6 +8,6 @@ setup(
     install_requires=['Click'],
     entry_points='''
         [console_scripts]
-        cred_switch=cred_switch:change_type
+        cred_switch=cred.cred_switch:change_type
     ''',
     )

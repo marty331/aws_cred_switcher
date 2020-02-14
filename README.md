@@ -20,3 +20,14 @@ For AWE Cred Switcher to work correctly you will need to setup your sub-folders 
 ```
 
 ## Installation
+All steps to be ran from the command line.
+Clone this repository (git clone) and cd into the directory.
+```
+virtualenv venv
+. venv/bin/activate
+deactivate
+cp venv/bin/cred_switch /usr/local/bin/
+```
+
+Now you can run:
+cred_switch
